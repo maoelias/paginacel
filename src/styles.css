@@ -2,18 +2,25 @@
 
 .img-responsive{
   background-image: url('../src/imagenes/estrellafamoso.png');
-  height: 50vh;
   background-position: center;
   background-repeat: no-repeat ;
   background-size: cover;
   background-color: #00000080;
-  
+  height: 20px;
+  padding-top: 400px; 
 
   }
 
-  .btn{}
+  .btn{
+       width: 100px; 
+    height: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
+  }
 
-
+  
   
 
 @font-face {
@@ -55,10 +62,7 @@
 
   }
   
-  .row {
-    max-width: none;
-  }
-  
+
 
   .table {
     margin-top: 100px;

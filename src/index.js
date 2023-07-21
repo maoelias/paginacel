@@ -8,6 +8,7 @@ import store from './store/store';
 import conf_auth from './conf_auth';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
+<link rel="stylesheet" type="text/css" href="estilos.css"></link>
 
 
 

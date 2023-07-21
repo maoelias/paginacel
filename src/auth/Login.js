@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { login } from '../actions/userActions';
 
 
+
 export const Login = () => {
   const { loginWithRedirect, isAuthenticated, user, isLoading } = useAuth0();
   const dispatch = useDispatch();
@@ -25,7 +26,9 @@ useEffect(() => {
     return <div>Cargando...</div>;
   }
 
-  return <button type="button" class="btn btn-primary btn-lg" onClick={handleLogin}>Acceder</button>;
+  return <button id="mi-Boton"type="button" className='d-grid gap-2 col-6 mx-auto btn btn-primary' onClick={handleLogin}>Acceder</button>;
 
+
+ 
 
 };

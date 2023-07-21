@@ -26,12 +26,12 @@ const Celebrities_List = ({ celebrities }) => {
     {celebrities.map(c => {
       return (
         <div className="contenedor">
-  <div className="row1">
+  <div className="row">
     <div className="col-sm-4">
       <div className="card">
-        <div className="card-body">
-          <h4 className="card-title">{c.name}</h4>
-          <h2 className="card-text">{c.age}</h2>
+        <div className="card-body px-3">
+          <h4 className="card-title px-3">{c.name}</h4>
+          <h2 className="card-text ">{c.age}</h2>
           <div>{c.occupation}</div>
           <button className="btn btn-primary" onClick={() => handleAdd(c.birthday)}>
             Agregar a Celebridades Favoritas
